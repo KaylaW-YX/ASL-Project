@@ -1,7 +1,12 @@
-body{ 
-    color:rgb(194, 157, 157);
+#welcome{
+    color: skyblue;
 }
 
+.welcomediv{
+    display: flex; 
+    justify-content: center;
+    padding-bottom: none;
+}
 .buttondiv{
     padding: 10rem;
     display: flex; 
@@ -9,5 +14,6 @@ body{
 }
 
 .button1{
-    padding: 20px 50px 20px 50px;
+    padding: 50px 150px 50px 150px;
+    font-size: 55px;
 }
