@@ -1,7 +1,13 @@
 body{ 
-    color:brown;
+    color:rgb(194, 157, 157);
+}
+
+.buttondiv{
+    padding: 10rem;
+    display: flex; 
+    justify-content: center;
 }
 
 .button1{
-    float: left;
+    padding: 20px 50px 20px 50px;
 }
