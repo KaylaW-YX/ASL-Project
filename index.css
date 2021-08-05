@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-container {
+    position: relative;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    /* padding: 1rem 0 1.5rem 2rem */
+    padding: 5px 15px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* 
+div {
+    width: 500px; 
+    padding-bottom: 10px;
+} */
+
+#blueIntroDiv{
+    background-color: skyblue;
+    height: 50vh;
+    width: 100%;
+}
+
+#whitebodydiv{
+    background-color: white;
+    height: 50vh; 
+    width: 100%
+}
+
+/* #blueIntroDiv, #whitebodydiv {
+    border-bottom: 3px solid #1e2124; */
+    /* margin-bottom: 50px; */
+/* } */
