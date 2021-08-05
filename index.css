@@ -22,7 +22,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #327ba8;
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 5px 15px;
@@ -41,9 +41,22 @@ div {
 } */
 
 #blueIntroDiv{
-    background-color: skyblue;
+    background-color: #28648a;
     height: 50vh;
     width: 100%;
+}
+
+.btnparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /*changes position of button */
+}
+
+.startlearningbtn{
+    /* text-align: center; */
+    margin: 0 auto;
+    display: block;
 }
 
 #whitebodydiv{
@@ -56,3 +69,13 @@ div {
     border-bottom: 3px solid #1e2124; */
     /* margin-bottom: 50px; */
 /* } */
+
+.header{
+    text-align: center;
+}
+
+#introTxt{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
