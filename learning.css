@@ -1,27 +1,8 @@
-#welcome{
-    color: whitesmoke;
-    text-align: center;
-}
-
 body{
     background-color: skyblue;
 }
 
-.welcomediv{
-    display: flex; 
-    justify-content: center;
-    padding-top: 11rem;
-}
-.buttondiv{
-    padding: 0 100px 50px 100px;
-    display: flex; 
-    justify-content: center;
-}
-
-.button1{
-    padding: 50px 150px 50px 150px;
-    font-size: 55px;
-    border-radius: 10%;
-    background-color: whitesmoke;
-    cursor: pointer;
+h1{
+    text-align: center;
+    color:white;
 }
