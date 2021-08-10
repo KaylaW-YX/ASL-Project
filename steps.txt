@@ -1,3 +1,12 @@
 step 1: get random character to display --> function getRandomCharacters() (random charac)
 setp 2: add to whatever value returned from randomCharacter() of .png (actual file name)
 stpe 3: displaying the image from corresponding file name from previous step 
+
+Array Shuffling:
+displaying new questions and new possible answers 
+display new answer in same function 
+loops --> populate answer spots 
+array --> with all the answer (abcd),. 3/4 are random letters shuffle array
+
+Array Answer when clicked:
+when user clicks on one answer --> displaying the answer:

@@ -7,22 +7,56 @@
     <link rel="stylesheet" href="learning.css">
 
     <title>Learning Interface</title>
-    <h1>Learning the Alphabet</h1>
+
+    <div class="navigation-bar">
+        <div id="navigation-container">
+            <img src="assets/Silearn-Logo.png" alt="silearn logo" id="logo" width="50"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning.html">Learn</a></li>
+                <li><a href="#">Flashcards</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 id="intro">Learning the Alphabet</h1>
 </head>
 <body>
+    <!-- displaying the picture and button for next-->
+    <table>
+		<tr>
+			<td>
+      <div class="imgContainer">
+				<div>
+				  <img src="" name="canvas" id="randomPhoto">
+				</div>
+				<div class="imgButton">
+                    <form name="imageForm">
+                        <input onclick="giveDifferentQuestionImg();" type=button value="Display Random Image" class="display-btn">        
+                       </form>
+				</div>
+         </div>
+			</td>
+		</tr>
+	</table>
 
-    <div id = "alphabetPictureDiv">
-        <form name="imageForm">
-            <input onclick="giveDifferentQuestionImg();" type=button value="Display Random Image">     
-            <img src="" name="canvas" />
-           </form>
-    </div>
-    <div>
+
+    
+    <div id="answers-btns">
         <!-- contain the answers -->
-        <div></div> <!--answer 1 -->
-        <div></div> <!--answer 2 -->
-        <div></div> <!--answer 3 -->
-        <div></div> <!--answer 4 -->
+        <div class="btn-row">
+            <button>A</button>
+        </div> <!--answer 1 -->
+        <div class="btn-row">
+            <button>B</button>
+        </div> <!--answer 2 -->
+        <div class="btn-row">
+            <button>C</button>
+        </div> <!--answer 3 -->
+        <div class="btn-row">
+            <button>D</button>
+        </div> <!--answer 4 -->
     </div>
     <script src="learning.js"></script>
 </body>
