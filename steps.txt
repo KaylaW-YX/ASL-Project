@@ -9,4 +9,13 @@ loops --> populate answer spots
 array --> with all the answer (abcd),. 3/4 are random letters shuffle array
 
 Array Answer when clicked:
-when user clicks on one answer --> displaying the answer:
+when user clicks on one answer --> displaying the answer
+
+when choose right answ = green (styling attritube)
+onclick => displaying color 
+wrong ans = red 
+
+!!!Displaying the right answer --> styling it centering
+history bars? (bottom)
+progress bars? (top)
+

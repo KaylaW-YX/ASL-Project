@@ -1,63 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="learning.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Learning interface</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="cssJS/css/main.css" />
+		<link rel="stylesheet" href="learning.css"/>
+		<noscript><link rel="stylesheet" href="cssJS/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <title>Learning Interface</title>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="index.html">Silearn</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="learning.html">Learn</a></li>
+										<li><a href="flashcards.html">Flashcards</a></li>
+										<li><a href="aboutme.html">About</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+					</header>
 
-    <div class="navigation-bar">
-        <div id="navigation-container">
-            <img src="assets/Silearn-Logo.png" alt="silearn logo" id="logo" width="50"> 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="learning.html">Learn</a></li>
-                <li><a href="#">Flashcards</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-    </div>
+	<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>Learning Interface</h2>
+				<p>Quizzing Basics: Alphabet A-Z & Numbers 0-9</p>
+			</header>
+			<section class="wrapper style5">
+				<div class="inner">
 
-    <h1 id="intro">Learning the Alphabet</h1>
-</head>
-<body>
-    <!-- displaying the picture and button for next-->
-    <table>
-		<tr>
-			<td>
-      <div class="imgContainer">
-				<div>
-				  <img src="" name="canvas" id="randomPhoto">
+					<table>
+						<tr>
+							<td>
+					  <div class="imgContainer">
+								<div>
+								  <img src="" name="canvas" id="randomPhoto">
+								</div>
+								<div class="imgButton">
+									<form name="imageForm">
+										<input onclick="giveDifferentQuestionImg();" type=button value="Display Random Image" class="display-btn">        
+									   </form>
+								</div>
+						 </div>
+							</td>
+						</tr>
+					</table>
+					
+					<div id="answers-btns">
+						<!-- contain the answers -->
+						<div class="btn-row">
+							<button>A</button>
+						</div> <!--answer 1 -->
+						<div class="btn-row">
+							<button>B</button>
+						</div> <!--answer 2 -->
+						<div class="btn-row">
+							<button>C</button>
+						</div> <!--answer 3 -->
+						<div class="btn-row">
+							<button>D</button>
+						</div> <!--answer 4 -->
+					</div>
+
+					<hr />
+
+					<h4>Descriptions</h4>
+
+
 				</div>
-				<div class="imgButton">
-                    <form name="imageForm">
-                        <input onclick="giveDifferentQuestionImg();" type=button value="Display Random Image" class="display-btn">        
-                       </form>
-				</div>
-         </div>
-			</td>
-		</tr>
-	</table>
+			</section>
+		</article>
 
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</footer>
 
-    
-    <div id="answers-btns">
-        <!-- contain the answers -->
-        <div class="btn-row">
-            <button>A</button>
-        </div> <!--answer 1 -->
-        <div class="btn-row">
-            <button>B</button>
-        </div> <!--answer 2 -->
-        <div class="btn-row">
-            <button>C</button>
-        </div> <!--answer 3 -->
-        <div class="btn-row">
-            <button>D</button>
-        </div> <!--answer 4 -->
-    </div>
-    <script src="learning.js"></script>
-</body>
+	</div>
+
+		<!-- Scripts -->
+		<script src="cssJS/js/jquery.min.js"></script>
+		<script src="cssJS/js/jquery.scrollex.min.js"></script>
+		<script src="cssJS/js/jquery.scrolly.min.js"></script>
+		<script src="cssJS/js/browser.min.js"></script>
+		<script src="cssJS/js/breakpoints.min.js"></script>
+		<script src="cssJS/js/util.js"></script>
+		<script src="cssJS/js/main.js"></script>
+		<script src="learning.js"></script>
+
+	</body>
 </html>
