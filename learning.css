@@ -1,7 +1,6 @@
 
 .imgButton{
     text-align:center;
-    
   }
 
   table{
@@ -11,18 +10,24 @@
  
   .display-btn{
     padding: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 2rem !important;
   }
 
 #answers-btns{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-row{
    width: 100%
+}
+
+#randomPhoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
