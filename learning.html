@@ -37,35 +37,28 @@
 			<p>Quizzing Basics: Alphabet A-Z & Numbers 0-9</p>
 		</header>
 		<section class="wrapper style5">
-		<div class="inner">
-			<table>
-				<tr>
-					<td>
-				<div class="imgContainer">
-						<div>
-							<img src="" name="canvas" id="randomPhoto">
-						</div>
+	<div class="bodyQuiz">
+		<div class="container">
+			<div id="question-container" class="hide">
+				<div id="question"> <!--Question button supposidly-->
+					<h2>What character is shown?</h2>
+					<div>
+						<img src="" name="canvas" id="randomPhoto" alt="handsign">
 					</div>
-					</td>
-				</tr>
-			</table>
-					
-		<div id="answers-btns">
-			<!-- contain the answers -->
-			<!-- If ans = right => change green background and onto next question -->
-			<div class="btn-row">
-				<input onclick="giveDifferentQuestionImg();" type=button value="tbd" class="display-btn"> 
-			</div> <!--answer 1 -->
-			<div class="btn-row">
-				<input onclick="giveDifferentQuestionImg();" type=button value="tbd" class="display-btn"> 
-			</div> <!--answer 2 -->
-			<div class="btn-row">
-				<input onclick="giveDifferentQuestionImg();" type=button value="tbd" class="display-btn"> 
-			</div> <!--answer 3 -->
-			<div class="btn-row">
-				<input onclick="giveDifferentQuestionImg();" type=button value="tbd" class="display-btn"> 
-			</div> <!--answer 4 -->
+				</div>
+				<div id="answer-buttons" class="btn-grid">
+					<button class="btn" id="ans1" onclick="selectAnswer(event)">1</button> 
+					<button class="btn" id="ans2" onclick="selectAnswer(event)">2</button> 
+					<button class="btn" id="ans3" onclick="selectAnswer(event)">3</button> 
+					<button class="btn" id="ans4" onclick="selectAnswer(event)">4</button> 
+				</div>
+			</div>
+			<div class="controls">
+				<button id="start-btn" class="start-btn btn"> Start </button>
+				<button id="next-btn" class="start-btn btn hide"> Next </button>
+			</div>
 		</div>
+	</div>
 		<hr />
 		<h4>History</h4>
 		</div>

@@ -1,4 +1,3 @@
-
 .imgButton{
     text-align:center;
   }
@@ -30,4 +29,46 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bodyQuiz{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn{
+  border-radius: 2rem !important;
+  outline: none;
+}
+
+.btn-correct{
+  background-color: rgb(35, 202, 35);
+}
+
+.btn-wrong{
+  background-color: rgb(226, 58, 58);
+}
+
+.start-btn, .next-btn{
+  font-weight: bold;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
 }

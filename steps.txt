@@ -19,3 +19,10 @@ wrong ans = red
 history bars? (bottom)
 progress bars? (top)
 
+var array = ["a","b","c","d"]; // a is correct, rest is incorrect(random) --> shuffle (Random)
+          // 0    1    2   3 (RANDOM ORDERING)
+var newArray = ["b","a","c","d"] //new shuffled values
+//displaying correct the correct answer from left to rig11ht (loop)
+// variable for storing the the image being shown
+
+
