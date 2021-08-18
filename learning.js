@@ -1,4 +1,5 @@
 var randomCharacter = '';
+var button = document.getElementsByClassName("button");
 //gets a random character
 function getRandomCharacter(length) {
      var randomResult = '';
@@ -45,26 +46,24 @@ function selectAnswer(event){
      //need to know if character selected = randomcharacter var 
      const selectedButton = event.target.innerHTML;
      if (selectedButton == randomCharacter){
-          document.querySelector('button').classList.add('btn-correct');
+     //     event.target.classList.add("btn-correct");
+     alert("Correct! Moving on.")
+         giveDifferentQuestionImg()
+          // console.log(selectedButton, randomCharacter);
+          
      } else {
-          alert("try again!");
+		// event.target.classList.add("btn-wrong")
+          alert("try again!")
+
      }
+     // clearClass();
 }
 
-
-function setStatusClass(element, correct){
-     clearStatusClass(element)
-     if (correct){
-          element.classList.add('btn-correct')
-     } else {
-          element.classList.add('wrong')
-     }
+function clearClass(event){
+     event.target.classList.remove("btn-correct");
+     event.target.classList.remove("btn-wrong");
 }
 
-function clearStatusClass(element){
-     element.classList.remove('btn-correct');
-     element.classList.remove('btn-wrong');
-}
 
 //start button
 const startButton = document.getElementById('start-btn');
@@ -78,8 +77,4 @@ function startLesson(){
      startButton.classList.add('hide')
      questionContainerElement.classList.remove('hide')
      giveDifferentQuestionImg();
-}
-
-function resetState(){
-     
 }

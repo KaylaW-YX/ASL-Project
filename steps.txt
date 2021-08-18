@@ -26,3 +26,13 @@ var newArray = ["b","a","c","d"] //new shuffled values
 // variable for storing the the image being shown
 
 
+
+to get what button user selected: 
+1. Which button is selected?
+2. using that button information to make it whatever color 
+
+
+
+
+
+
