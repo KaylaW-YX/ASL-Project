@@ -55,6 +55,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+	/* border: none; */
 }
 
 /* Basic */

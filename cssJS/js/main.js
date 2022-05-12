@@ -1,4 +1,4 @@
-
+//screen size
 (function($) {
 
 	var	$window = $(window),

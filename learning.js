@@ -1,3 +1,4 @@
+// learning interface
 var randomCharacter = '';
 var button = document.getElementsByClassName("button");
 //gets a random character
