@@ -1,3 +1,19 @@
+Steps for original plan:
+step 1: learning how machine learning work 
+step 2: exploring options
+step 3: understanding how the algorithm works with the language chosen
+step 4: import if needed
+step 5: code!
+    a. learn tensorflow and scss
+    b. import tensorflow.js 
+        i. import trainable machine into project 
+    c. set up canva for camera to display
+    d. set up answer choices
+    e. page designs
+step 6: deploy
+
+
+Steps for Plan B
 step 1: get random character to display --> function getRandomCharacters() (random charac)
 setp 2: add to whatever value returned from randomCharacter() of .png (actual file name)
 stpe 3: displaying the image from corresponding file name from previous step 
